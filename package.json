@@ -8,7 +8,7 @@
     "client",
     "connection manager",
     "network",
-    "api", 
+    "api",
     "managment"
   ],
   "main": "./lib/index.js",
@@ -21,7 +21,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "connman-api": "^0.3.3",
+    "async": "^2.1.5",
+    "connman-api": "neophob/connman-api",
     "debug": "^2.1.0",
     "keypress": "^0.2.1",
     "ms": "^0.7.0"
