@@ -13,7 +13,9 @@
   ],
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": {
     "name": "Peter Uithoven",
@@ -25,10 +27,12 @@
     "connman-api": "neophob/connman-api",
     "debug": "^2.1.0",
     "keypress": "^0.2.1",
-    "ms": "^0.7.0"
+    "ms": "^0.7.0",
+    "snyk": "^1.319.0"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:Doodle3D/connman-simplified.git"
-  }
+  },
+  "snyk": true
 }
